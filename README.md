@@ -33,7 +33,7 @@
 - We generate the matrix  $D $ randomly and normalize it to have norm $\| D \|=1$, and compute $D^{†}$
 - The modified image  $x+z $ may have entries outside the range $[0, 1]$
 - We replace any negative values in the modified image with zero, and any values greater than one with one
-- We adjust $\alpha$ until the original and modified images look the same, but the secret message is decoded correctly
+- We adjust $\alpha$ until the original and modified images look the same, but the message is decoded correctly
 
 ## *Resources*
 
